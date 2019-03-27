@@ -43,7 +43,7 @@ Everyone has different goals with programming so identify topics relevant to you
 * Drawing 3D graphics to screen
 * GUI programming
 
-## The DevDungeon Cookbook
+## This text written by devdungeon, a coppied it and recomend you to do the same.
 
 * http://www.devdungeon.com/cookbook
 * https://github.com/DevDungeon/Cookbook
