@@ -25,6 +25,17 @@
 -   After starting up Postgres server, SQL commands can be entered directly into the terminal. Some other useful commands include:
     -   `\d`  : print all the different parts of the current database
 
+ 
+## Some console commands
+
+
+    sudo -u postgres -i 
+   > adds corrent user to create and use database
+
+    createdb <nameofdatabase>
+    psql <nameofdatabase> //starting to use db
+
+
 ### Basic Operations
 
 -   Creating a table:

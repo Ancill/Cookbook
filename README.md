@@ -1,10 +1,8 @@
 ## The Cookbook Method
 
-A cookbook in the programming context is collection of tiny programs that each demonstrate a particular programming concept. The Cookbook Method is the process of learning a programming language by building up a repository of small programs that implement specific programming concepts. Starting with a Hello World program and building the knowledge piece by piece on top of that.
+This is some kind of idea, making all handy tips and code snippets in one place, it's brings some of your tools really come closer to your hands.
+Original idea of it comes from * https://github.com/DevDungeon/Cookbook
 
-If you are a beginner, you will probably want to start out with one language like Python and start building up your repetoire of snippets for reference and confidence. If you are a seasoned developer, you may want to start building a cookbook from scratch for a new language you have never used, or keep a cookbook for more advanced topics in a language you are already familiar with.
-
-Here is an example of when my Cookbook comes in handy. Recently I was faced with a situation where I needed to make an HTTP request to an API, parse the JSON response, generate a CSV spreadsheet, and email the spreadsheet. Because I already had my own cookbook snippets for doing each of those three actions, it was really easy to put together a program that did what I needed it to.
 
 ### Benefits of Building Your Own Cookbook
 
@@ -42,8 +40,3 @@ Everyone has different goals with programming so identify topics relevant to you
 * Drawing 2D graphics to screen
 * Drawing 3D graphics to screen
 * GUI programming
-
-## This text written by devdungeon, a coppied it and recomend you to do the same.
-
-* http://www.devdungeon.com/cookbook
-* https://github.com/DevDungeon/Cookbook
