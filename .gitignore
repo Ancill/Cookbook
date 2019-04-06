@@ -29,6 +29,7 @@ a.out
 *.exe
 *.exe~
 
+node_modules/
 
 
 # Byte-compiled / optimized / DLL files
