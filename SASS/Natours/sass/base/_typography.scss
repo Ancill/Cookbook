@@ -12,7 +12,10 @@ body {
     text-transform: uppercase;
 
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
+
+    
+
     &--main {
         display: block;
         font-size: 60px;
@@ -28,6 +31,11 @@ body {
     
         backface-visibility: hidden; -- fix shaking
         */
+
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+        }
     }
     &--sub {
         display: block;
@@ -35,6 +43,11 @@ body {
         font-weight: 700;
         letter-spacing: 17.4px;
         animation: moveInRight 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: .5rem;
+
+        }
     }
 }
 
@@ -42,11 +55,21 @@ body {
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
+    display: inline-block;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-    -webkit-background-clip: text; // will clip only where text 
-    color:transparent; // make text transparent to see background
-    letter-spacing: 2px;
-    transition: all .2s; //animation
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+
+
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
 
     &:hover {
         transform: skewY(-3deg) skewX(-15deg) scale(1.1);//makes text with deg

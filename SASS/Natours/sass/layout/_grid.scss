@@ -6,16 +6,34 @@
 
     &:not(:last-child) { //every think except last child
         margin-bottom: $gutter-vertical;
+
+        @include respond(tab-port) {
+            margin-bottom: $gutter-vertical-small;
+        }
     }
 
+    @include respond(tab-port) {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
 
     @include clearfix;
 
-    [class^="col-"] { //will select all attributes that start with {col-} ^ for start, $ for end, + for all that contains
-        //background-color: ;
+    [class^="col-"] {               //will select all attributes that start with {col-} ^ for start, $ for end, + for all that contains
+                                    //background-color: ;
         float:left;
+
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+
+            @include respond(tab-port) {
+                margin-right: 0; 
+                margin-bottom: $gutter-vertical-small;
+            }
+        }
+
+        @include respond(tab-port) {
+            width: 100% !important;
         }
 
     }
