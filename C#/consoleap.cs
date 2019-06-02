@@ -34,7 +34,7 @@ namespace ConsoleAppDay1
         
 
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party");
-            request.Headers.Add("Authorization", "Token ce13a3bf0c1c5e0f3960001bfe63b0270e23678e");
+            request.Headers.Add("Authorization", "Token ");
 
             request.Content = new StringContent(json, Encoding.UTF8, "application/json");
 
